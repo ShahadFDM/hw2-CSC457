@@ -1,0 +1,142 @@
+/* --- GLOBAL BODY STYLES --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Sets primary font and fallbacks */
+    background-color: #dbe6f9; /* Sets main webpage background color */
+    color: #333333; /* Sets default text color */
+    font-size: 1rem; /* Sets base font size using relative units */
+    line-height: 1.6; /* Defines vertical spacing between lines of text */
+    margin: 0; /* Removes default browser margins */
+    padding: 0; /* Removes default browser padding */
+}
+
+/* --- HEADING STYLES --- */
+h1 {
+    color: #243443; /* Sets primary heading color */
+    text-align: center; /* Centers the text horizontally */
+    text-transform: uppercase; /* Forces text to display in all capital letters */
+    font-size: 2.5rem; /* Sets heading size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15); /* Applies a subtle drop shadow to the text */
+}
+
+h2 {
+    color: #2b4d70; /* Sets secondary heading color */
+    font-size: 1.8rem; /* Sets heading size */
+    border-bottom: 2px solid #2b4d70; /* Creates a solid underline effect */
+    padding-bottom: 5px; /* Adds space between the text and the bottom border */
+}
+
+/* --- PARAGRAPH STYLES --- */
+p {
+    font-size: 1.1rem; /* Sets paragraph text size */
+    margin-bottom: 15px; /* Adds empty space below each paragraph */
+}
+
+/* --- NAVIGATION BAR --- */
+nav {
+    background-color: #2c3e50; /* Sets navigation bar background color */
+    padding: 15px 0; /* Adds top and bottom inner spacing; zero left and right */
+    text-align: center; /* Centers the navigation links */
+}
+
+nav ul {
+    list-style-type: none; /* Removes default bullet points from the list */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+nav li {
+    display: inline-block; /* Aligns list items horizontally side-by-side */
+    margin: 0 20px; /* Adds horizontal space between each link */
+}
+
+nav a {
+    color: #ffffff; /* Sets navigation link text color */
+    text-decoration: none; /* Removes the default underline from links */
+    font-weight: bold; /* Makes the link text bold */
+    font-size: 1.1rem; /* Sets link text size */
+    text-transform: uppercase; /* Forces link text to all capital letters */
+}
+
+nav a:hover {
+    color: #7d6a89; /* Changes link color when the user hovers over it */
+}
+
+/* --- MAIN CONTENT LAYOUT --- */
+main {
+    max-width: 900px; /* Restricts the maximum width of the content area */
+    margin: 30px auto; /* Centers the main container horizontally on the page */
+    background-color: #ffffff; /* Sets content area background color */
+    padding: 40px; /* Adds inner spacing between the content and the border */
+    border-radius: 8px; /* Rounds the corners of the main container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); /* Applies a soft shadow behind the container */
+}
+
+/* --- SECTION & ARTICLE STYLING --- */
+section {
+    margin-bottom: 30px; /* Adds empty space below each section */
+    padding: 20px; /* Adds inner spacing within the section */
+    background-color: #f9f9ff; /* Sets section background color */
+    border-left: 4px solid #2b4d70; /* Creates a solid accent line on the left edge */
+    border-radius: 5px; /* Rounds the corners of the section */
+}
+
+article.Projects {
+    margin-bottom: 30px; /* Adds empty space below each project article */
+    padding: 20px; /* Adds inner spacing within the article */
+    background-color: #f9f9ff; /* Sets article background color to match sections */
+    border-left: 4px solid #2b4d70; /* Creates a solid accent line on the left edge */
+    border-radius: 5px; /* Rounds the corners of the article */
+}
+
+/* --- FOOTER STYLING --- */
+footer {
+    text-align: center; /* Centers footer text */
+    padding: 20px; /* Adds inner spacing */
+    margin-top: 40px; /* Adds empty space above the footer */
+    font-size: 0.9rem; /* Reduces text size slightly */
+    color: #666666; /* Sets footer text color */
+}
+
+footer a {
+    color: #0056b3; /* Sets link color within the footer */
+    text-decoration: none; /* Removes underline from footer links */
+}
+
+/* --- LIST STYLING --- */
+ul {
+    list-style-type: square; /* Changes default circular bullet points to squares */
+    list-style-position: inside; /* Aligns bullet points with the text flow */
+    padding-left: 10px; /* Indents the list slightly */
+}
+
+li {
+    margin-bottom: 10px; /* Adds vertical space between list items */
+}
+
+/* --- CONTENT LINKS --- */
+main a {
+    color: #0056b3; /* Sets standard link color within the main content */
+    font-weight: bold; /* Makes link text bold */
+    text-decoration: none; /* Removes standard underline */
+    border-bottom: 1px dashed #0056b3; /* Applies a custom dashed underline effect */
+}
+
+main a:hover {
+    color: #d35400; /* Changes link color on hover */
+    border-bottom: 1px solid #d35400; /* Changes dashed line to a solid line on hover */
+}
+
+/* --- SPECIFIC IDS AND CLASSES --- */
+#intro {
+    background-color: #eaf2f8; /* Overrides default section background with a lighter blue */
+    border-left: 4px solid #3498db; /* Overrides default accent line with a lighter blue */
+    border-radius: 5px; /* Rounds the corners */
+}
+
+.highlight {
+    background-color: #ffeaa7; /* Applies a yellow background specifically to the text element */
+    padding: 2px 5px; /* Adds spacing tightly around the text */
+    font-weight: bold; /* Makes the highlighted text bold */
+    color: #2c3e50; /* Sets specific text color for readability against yellow */
+    border-radius: 3px; /* Rounds the highlight edges */
+}
