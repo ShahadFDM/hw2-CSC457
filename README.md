@@ -1,5 +1,3 @@
-# hw2-CSC457
-
 # Personal Portfolio Website
 
 This is a multi-page personal portfolio website built using semantic HTML. It was created as Homework 2 for the CSC457: Internet Technologies course.
